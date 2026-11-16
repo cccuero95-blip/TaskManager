@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskManager - Gestión de tareas</title>
+    <p>Gestiona tus tareas de forma sencilla y organizada.</p>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>TaskManager</h1>
+        <p>Organiza tus tareas fácilmente</p>
+
+        <form id="taskForm">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Escribe una tarea..."
+                required
+            >
+            <button type="submit">Añadir tarea</button>
+        </form>
+
+        <ul id="taskList"></ul>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
